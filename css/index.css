@@ -1,0 +1,870 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+ 
+}
+
+body::-webkit-scrollbar{
+
+    width: 0;
+    height: 0;
+   
+  
+  }
+  html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: black;
+}
+  
+
+section{
+   
+    height: 150vh;
+}
+
+#inicio{
+    background-color:rgb(0, 0, 0) ;
+
+}
+
+#inicio .imagen img{
+    text-align:start;
+  
+    
+}
+
+.imagen img{
+    width: 31.3em;
+    height: 43.5em;
+}
+
+#inicio i{
+    
+ padding: 0.3em;
+    color: rgb(255, 254, 254);
+
+    transition: 0.3s ease;
+  
+}
+
+#inicio .informacion{
+    position: absolute;
+    color: white;
+
+    margin-top: 38em;
+ 
+   margin-right: 2em;
+   width: 23em;
+    
+}
+
+.informacion{
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.informacion p{
+    font-weight: 100;
+}
+.informacion h1{
+    font-family:sans-serif;
+    font-weight: 900;
+}
+
+#inicio i:hover{
+    color: rgb(142, 140, 140);
+}
+#inicio .redes{
+    margin-top: 56em;
+    margin-left: 7em;
+z-index: 999;position: absolute;
+}
+#inicio i a{
+    color: black;
+   text-decoration: none;
+    z-index: 11111;
+      
+}
+
+
+
+
+
+ #sobremi img{
+    width: 31.3em;
+ }
+
+ #photos img{
+  position: absolute;
+  margin-top: -17em;
+    width: 31.3em;
+ }
+
+
+ #video img{
+    width: 31.3em;
+    margin-top: -35em;
+ }
+
+ #video .videouno{
+    position: absolute;
+    width: 15em;
+    z-index: 999;
+    margin-top: -35em;
+   right: 8.5em;
+ }
+
+ #video .videodos{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top: -5em;
+   right: 8.5em;
+ }
+
+
+ #video .videotres{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top:28em;
+   right: 8.5em;
+ }
+
+ #video .videocuatro{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top:58em;
+   right: 8.5em;
+ }
+
+ footer img{
+    position: absolute;
+    margin-top: 40em;
+    width: 31.3em;
+    
+ }
+ @media only screen 
+ and (min-width: 1000px) {
+    .imagen img{
+        width: 36em;       
+         height: 43.5em;
+       margin-left: 50em;
+    }
+
+    #inicio .redes{
+        margin-top: 30em;
+        margin-left: 15em;
+    z-index: 999;position: absolute;
+    }
+
+    #sobremi{
+        width: 100%;     
+     z-index: 999;
+   
+    background: url(../img/Biografia.png);
+    }
+
+    #sobremi img{
+        opacity: 0;
+    }
+
+    #photos{
+        width: 100%;       
+        background: url(../img/ugc\ photos.png);
+    }
+
+
+
+    #photos img{
+        opacity: 0;
+    }
+
+
+    #video {
+        width: 100%;
+
+        background: url(../img/ugc\ videos.png);
+    }
+    #video img{
+               
+       opacity: 0;
+    }
+
+     #video .videotres{
+position: absolute;
+margin-top: 4em;
+margin-right: 18em;
+width: 15em;
+
+   
+    }
+
+    #video .videocuatro{
+        position: absolute;
+        margin-top: 4em;
+        margin-right: -3em;
+        width: 15em;
+        
+           
+            }
+            #video .videodos{
+                position: absolute;
+                margin-top: 4em;
+                margin-right: 38em;
+                width: 15em;
+                
+                   
+                    }
+                    #video .videouno{
+                        position: absolute;
+                        margin-top: 4em;
+                        margin-right: 58em;
+                        width: 15em;
+                        
+                           
+                            }
+        
+    footer img{
+           
+   margin-top: -50em;
+        opacity: 0;
+    }
+
+
+    #foot{
+
+        width: 100%;
+        margin-top: 10em;
+height: 120vh;
+        background: url(../img/Biografia\ \(1\).png);
+    }
+    #inicio .informacion{
+      
+        margin-top: 6em;
+        padding: 1em;
+        font-size: 2em;
+       margin-right: 2em;
+       
+        
+ }
+
+
+
+
+
+ section{
+   
+    height: 100vh;
+}
+
+ }
+ 
+
+ @media only screen 
+ and (max-width: 1000px) 
+ { 
+    .imagen img{
+        width: 58em;       
+         height: 56em;
+    }
+
+    #inicio .redes{
+        margin-top: 70em;
+        margin-left: 20em;
+    z-index: 999;position: absolute;
+    }
+
+    #sobremi img{
+        width: 58em;       
+        height: 56em;
+    }
+
+    #photos img{
+        width: 58em;       
+        height: 56em;
+    }
+
+    #video img{
+        width: 58em;       
+         height: 56em;
+    }
+
+    footer img{
+        width: 58em;       
+        height: 56em;
+        
+    }
+    #inicio .informacion{
+      
+        margin-top: 39em;
+        padding: 1em;
+        font-size: 1.5em;
+       margin-right: 2em;
+       
+        
+ }
+
+ #video .videouno{
+    position: absolute;
+    width: 19em;
+    z-index: 999;
+    margin-top: -44em;
+    right: 18em;
+ }
+
+ #video .videodos{
+    position: absolute;
+    width: 19em;
+    z-index: 9999;
+    margin-top: -7em;
+    right: 18em;
+ }
+
+
+ #video .videotres{
+    position: absolute;
+    width: 19em;
+    z-index: 9999;
+    margin-top:29em;
+    right: 18em;
+ }
+
+ #video .videocuatro{
+    position: absolute;
+    width: 19em;
+    z-index: 9999;
+    margin-top:63em;
+    right: 18em;
+}
+
+ section{
+   
+    height: 115vh;
+}
+
+ }
+
+
+ @media only screen 
+ and (max-width: 850px) 
+ { 
+    .imagen img{
+        width: 53em;       
+         height: 55em;
+    }
+
+    #inicio .redes{
+        margin-top: 70em;
+        margin-left: 18em;
+    z-index: 999;position: absolute;
+    }
+
+    #sobremi img{
+        width: 53em;       
+        height: 55em;
+    }
+
+    #photos img{
+        width: 53em;       
+        height: 55em;
+    }
+
+    #video img{
+        width: 53em;       
+        height: 55em;
+    }
+
+    footer img{
+        width: 53em;       
+        height: 55em;
+        
+    }
+    #inicio .informacion{
+      
+        margin-top: 50em;
+        padding: 1em;
+        font-size: 1.2em;
+       margin-right: 2em;
+       
+        
+ }
+
+ #video .videouno{
+    position: absolute;
+    width: 19em;
+    z-index: 999;
+    margin-top: -44em;
+    right: 15em;
+ }
+
+ #video .videodos{
+    position: absolute;
+    width: 19em;
+    z-index: 9999;
+    margin-top: -7em;
+    right: 15em;
+ }
+
+
+ #video .videotres{
+    position: absolute;
+    width: 19em;
+    z-index: 9999;
+    margin-top:29em;
+    right: 15em;
+ }
+
+ #video .videocuatro{
+    position: absolute;
+    width: 19em;
+    z-index: 9999;
+    margin-top:63em;
+    right: 15em;
+}
+
+ section{
+   
+    height: 105vh;
+}
+ }
+
+ @media only screen 
+ and (max-width: 650px) 
+ { 
+    .imagen img{
+        width: 41em;       
+         height: 45em;
+    }
+
+    #inicio .redes{
+        margin-top: 56em;
+        margin-left: 11em;
+    z-index: 999;position: absolute;
+    }
+
+    #sobremi img{
+        width: 41em;        
+        height: 45em;
+    }
+
+    #photos img{
+        width: 41em;            
+        height: 45em;
+    }
+
+    #video img{
+        width: 41em;          
+        height: 45em;
+    }
+
+    footer img{
+        width: 41em;       
+        height: 45em;
+        
+    }
+    #inicio .informacion{
+      
+        margin-top: 39em;
+        padding: 1em;
+        font-size: 1.2em;
+       margin-right: 2em;
+       
+        
+ }
+
+ #video .videouno{
+    position: absolute;
+    width: 15em;
+    z-index: 999;
+    margin-top: -32em;
+    right: 13em;
+ }
+
+ #video .videodos{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top: 2em;
+    right: 13em;
+ }
+
+
+ #video .videotres{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top:33em;
+    right: 13em;
+ }
+
+ #video .videocuatro{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top:63em;
+    right: 13em;
+}
+
+ section{
+   
+    height: 120vh;
+}
+
+
+ }
+
+
+ @media only screen 
+ and (max-width: 600px) 
+ { 
+
+    .imagen img{
+        width: 37.5em;       
+         height: 43.5em;
+    }
+
+    #inicio .redes{
+        margin-top: 56em;
+        margin-left: 11em;
+    z-index: 999;position: absolute;
+    }
+
+    #sobremi img{
+        width: 37.5em;         
+         height: 43.5em;
+    }
+
+    #photos img{
+        width: 37.5em;           
+         height: 43.5em;
+    }
+
+    #video img{
+        width: 37.5em;           
+        height: 43.5em;
+    }
+
+    footer img{
+        width: 37.5em;       
+        height: 43.5em;
+        
+    }
+    #inicio .informacion{
+      
+        margin-top: 39em;
+        padding: 1em;
+        font-size: 1.2em;
+       margin-right: 2em;
+       
+        
+ }
+
+ #video .videouno{
+    position: absolute;
+    width: 15em;
+    z-index: 999;
+    margin-top: -32em;
+    right: 11em;
+ }
+
+ #video .videodos{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top: 2em;
+    right: 11em;
+ }
+
+
+ #video .videotres{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top:33em;
+    right: 11em;
+ }
+
+ #video .videocuatro{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top:63em;
+    right: 11em;}
+
+ section{
+   
+    height: 120vh;
+}
+
+
+
+}
+
+
+ 
+
+
+@media only screen 
+and (max-width: 540px) 
+{
+
+  .imagen img{
+        width: 33.5em;       
+         height: 43.5em;
+    }
+
+    #inicio .redes{
+        margin-top: 56em;
+        margin-left: 8em;
+    z-index: 999;position: absolute;
+    }
+
+    #sobremi img{
+        width: 33.5em;        
+         height: 43.5em;
+    }
+
+    #photos img{
+        width: 33.5em;          
+         height: 43.5em;
+    }
+
+    #video img{
+        width: 33.5em;          
+        height: 43.5em;
+    }
+
+    footer img{
+        width: 33.5em;     
+        height: 43.5em;
+        
+    }
+    #inicio .informacion{
+      
+        margin-top: 39em;
+        padding: 1em;
+        font-size: 1.2em;
+       margin-right: 2em;
+       
+        
+ }
+
+ #video .videouno{
+    position: absolute;
+    width: 15em;
+    z-index: 999;
+    margin-top: -32em;
+    right: 9em;
+ }
+
+ #video .videodos{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top: 2em;
+    right: 9em;
+ }
+
+
+ #video .videotres{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top:33em;
+    right: 9em;
+ }
+
+ #video .videocuatro{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top:63em;
+    right: 9em;}
+
+ section{
+   
+    height: 120vh;
+}
+
+
+
+}
+
+
+
+
+@media only screen 
+ and (max-width: 490px) {
+
+
+    .imagen img{
+        width: 30.5em;       
+         height: 43.5em;
+    }
+
+    #inicio .redes{
+        margin-top: 56em;
+        margin-left: 8em;
+    z-index: 999;position: absolute;
+    }
+
+    #sobremi img{
+        width: 30.5em;        height: 43.5em;
+    }
+
+    #photos img{
+        width: 30.5em;         height: 40em;
+    }
+
+    #video img{
+        width: 30.5em;          height: 40em;
+    }
+
+    footer img{
+       
+        width: 30.5em;  
+            height: 40em;
+        
+    }
+    #inicio .informacion{
+      
+        margin-top: 39em;
+        padding: 1em;
+        font-size: 1.2em;
+       margin-right: 2em;
+       
+        
+ }
+
+ #video .videouno{
+    position: absolute;
+    width: 15em;
+    z-index: 999;
+    margin-top: -28em;
+    right: 7.5em;
+ }
+
+ #video .videodos{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top: 5em;
+    right: 7.5em;
+ }
+
+
+ #video .videotres{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top:38em;
+    right: 7.5em;
+ }
+
+ #video .videocuatro{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top:68em;
+    right: 7.5em;}
+
+ section{
+   
+    height: 120vh;
+}
+
+
+ }
+
+ @media only screen 
+ and (max-width: 420px) {
+    .imagen img{
+        width: 26.5em;        height: 43.5em;
+    }
+
+    #inicio .redes{
+        margin-top: 56em;
+        margin-left: 5em;
+    z-index: 999;position: absolute;
+    }
+
+    #sobremi img{
+        width: 26.5em;        height: 43.5em;
+    }
+
+    #photos img{
+        width: 26.5em;        height: 40em;
+    }
+
+    #video img{
+        width: 26.5em;        height: 40em;
+    }
+
+    footer img{
+       
+            width: 26.5em;
+            height: 40em;
+        
+    }
+    #inicio .informacion{
+      
+        margin-top: 47em;
+        padding: 1em;
+        font-size: 1em;
+       margin-right: 2em;
+       
+        
+ }
+
+ #video .videouno{
+    position: absolute;
+    width: 15em;
+    z-index: 999;
+    margin-top: -28em;
+    right: 5.5em;
+ }
+
+ #video .videodos{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top: 5em;
+    right: 5.5em;
+ }
+
+
+ #video .videotres{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top:38em;
+    right: 5.5em;
+ }
+
+ #video .videocuatro{
+    position: absolute;
+    width: 15em;
+    z-index: 9999;
+    margin-top:68em;
+   right: 5.5em;
+ }
+
+ section{
+   
+    height: 120vh;
+}
+
+}
+
+
+
+
+ 
